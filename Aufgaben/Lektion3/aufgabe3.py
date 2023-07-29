@@ -6,7 +6,7 @@
 
 
 # der Leibniz-Algorithmus bietet leider aufgrund des Global Interpreter Lock (GIL) in Python nicht wirklich parallele Ausführungsvorteile
-# bei einer multiprocessing variante mit der Monte Carlo Methode hat sich aber leider mein Rechner nicht mitgespielt 
+# bei einer multiprocessing variante mit der Monte Carlo Methode hat aber leider mein Rechner nicht mitgespielt 
 
 import threading
 
