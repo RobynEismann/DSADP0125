@@ -28,6 +28,6 @@ plt.ylabel('Relative Häufigkeit')
 plt.title(f'Histogramm der Summe von {10000} Gauß-verteilten Variablen')  
 plt.show()                                                              
 
-# in der Mathematik nennt man die Eigenschafft, dass die Summe von gauusverteilten Variablen wieder gauusverteilt ist, 
+# in der Mathematik nennt man die Eigenschafft, dass die Summe von gausverteilten Variablen wieder gausverteilt ist, 
 # die Additive Normalverteilung oder Additive Gauss'sche Verteilung
 
