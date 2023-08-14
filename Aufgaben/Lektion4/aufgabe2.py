@@ -21,5 +21,3 @@ for letter in S:
     sum += number                                       # addieren der Werte aus dem String
 
 print(sum)
-
-
