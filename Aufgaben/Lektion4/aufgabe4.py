@@ -13,10 +13,10 @@ def count (sentence,word):              # Funktion zur Zählung der Häufigkeit 
     return counted/len(sentence)*100    # Berechnen des Prozentsatzes der Wortvorkommen im Satz
 
 
-sentence = "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers."
-sentence = sentence.lower().split()     # Bereinigen und Aufteilen des Satzes in Wörter
+example = "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers."
+example = example.lower().split()     # Bereinigen und Aufteilen des Satzes in Wörter
 
 search = input("Please enter a word to be searched: ")
-result = count(sentence,search)
+result = count(example,search)
 
 print(f"The word '{search}' appears in the sentence with a frequency of {result:.2f}%.")
