@@ -5,11 +5,9 @@
 #---------------------------------------------------------------------------
 
 
-
 def getAlphabetNumber(letter):                          # Diese Funktion berechnet den numerischen Wert eines Buchstabens im Alphabet
     
-
-    res = ord(str(letter).lower())-ord('a')             # # Berechne den Abstand zum Buchstaben 'a'
+    res = ord(str(letter).lower())-ord('a')             # Berechne den Abstand zum Buchstaben 'a'
     return 0 if res > 25 or res < 0 else res            # sicherstellen, dass der Wert im Bereich von 0 bis 25 ist (mod 26)
 
 
@@ -17,7 +15,7 @@ S = "Eine alte Dame geht heute einkaufen."
 sum = 0
 
 for letter in S:
-    number = getAlphabetNumber(letter)                  # Erhalte den numerischen Wert des Buchstabens
-    sum += number                                       # addieren der Werte aus dem String
+    number = getAlphabetNumber(letter)                  # Erhalten des numerischen Wert des Buchstabens
+    sum += number                                       # Addieren der Werte aus dem String
 
 print(sum)
