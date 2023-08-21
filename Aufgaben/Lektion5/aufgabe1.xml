@@ -1,0 +1,102 @@
+<!DOCTYPE lager [
+    <!ELEMENT lager (artikel+)>
+    <!ELEMENT artikel (bezeichnung, farbe, preis, bestand)>
+    <!ATTLIST artikel
+        artikelnummer CDATA #REQUIRED>
+    <!ELEMENT bezeichnung (#PCDATA)>
+    <!ELEMENT farbe (#PCDATA)>
+    <!ELEMENT preis (#PCDATA)>
+    <!ELEMENT bestand (#PCDATA)>
+]>
+<lager>
+    <artikel artikelnummer="A001">
+        <bezeichnung>Hundehalsband</bezeichnung>
+        <farbe>Rot</farbe>
+        <preis>12.99</preis>
+        <bestand>25</bestand>
+    </artikel>
+    <artikel artikelnummer="A002">
+        <bezeichnung>Hundeleine</bezeichnung>
+        <farbe>Schwarz</farbe>
+        <preis>19.95</preis>
+        <bestand>40</bestand>
+    </artikel>
+    <artikel artikelnummer="A003">
+        <bezeichnung>Hundespielzeug</bezeichnung>
+        <farbe>Bunt</farbe>
+        <preis>8.99</preis>
+        <bestand>50</bestand>
+    </artikel>
+    <artikel artikelnummer="A004">
+        <bezeichnung>Hundeschüssel</bezeichnung>
+        <farbe>Blau</farbe>
+        <preis>5.49</preis>
+        <bestand>60</bestand>
+    </artikel>
+    <artikel artikelnummer="A005">
+        <bezeichnung>Hundebürste</bezeichnung>
+        <farbe>Weiß</farbe>
+        <preis>3.75</preis>
+        <bestand>30</bestand>
+    </artikel>
+    <artikel artikelnummer="A006">
+        <bezeichnung>Hundepflege-Set</bezeichnung>
+        <farbe>Rosa</farbe>
+        <preis>14.99</preis>
+        <bestand>20</bestand>
+    </artikel>
+    <artikel artikelnummer="A007">
+        <bezeichnung>Hundepullover</bezeichnung>
+        <farbe>Gelb</farbe>
+        <preis>22.50</preis>
+        <bestand>15</bestand>
+    </artikel>
+    <artikel artikelnummer="A008">
+        <bezeichnung>Hundeknochen</bezeichnung>
+        <farbe>Braun</farbe>
+        <preis>2.99</preis>
+        <bestand>75</bestand>
+    </artikel>
+    <artikel artikelnummer="A009">
+        <bezeichnung>Hundezahnbürste</bezeichnung>
+        <farbe>Grün</farbe>
+        <preis>6.25</preis>
+        <bestand>35</bestand>
+    </artikel>
+    <artikel artikelnummer="A010">
+        <bezeichnung>Hundebett</bezeichnung>
+        <farbe>Grau</farbe>
+        <preis>49.99</preis>
+        <bestand>15</bestand>
+    </artikel>
+    <artikel artikelnummer="A011">
+        <bezeichnung>Hundetraining-Guide</bezeichnung>
+        <farbe>Orange</farbe>
+        <preis>9.99</preis>
+        <bestand>50</bestand>
+    </artikel>
+    <artikel artikelnummer="A012">
+        <bezeichnung>Hunderegenmantel</bezeichnung>
+        <farbe>Lila</farbe>
+        <preis>18.75</preis>
+        <bestand>25</bestand>
+    </artikel>
+    <artikel artikelnummer="A013">
+        <bezeichnung>Hundetragetasche</bezeichnung>
+        <farbe>Hellblau</farbe>
+        <preis>29.50</preis>
+        <bestand>10</bestand>
+    </artikel>
+    <artikel artikelnummer="A014">
+        <bezeichnung>Hunderennshirt</bezeichnung>
+        <farbe>Dunkelgrün</farbe>
+        <preis>4.99</preis>
+        <bestand>40</bestand>
+    </artikel>
+    <artikel artikelnummer="A015">
+        <bezeichnung>Hundeschuhe</bezeichnung>
+        <farbe>Schwarz</farbe>
+        <preis>24.99</preis>
+        <bestand>20</bestand>
+    </artikel>
+</lager>

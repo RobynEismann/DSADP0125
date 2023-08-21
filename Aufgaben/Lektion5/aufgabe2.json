@@ -1,0 +1,109 @@
+{
+    "lager": [
+        {
+            "artikelnummer": "A001",
+            "bezeichnung": "Hundehalsband",
+            "farbe": "Rot",
+            "preis": 12.99,
+            "bestand": 25
+        },
+        {
+            "artikelnummer": "A002",
+            "bezeichnung": "Hundeleine",
+            "farbe": "Schwarz",
+            "preis": 19.95,
+            "bestand": 40
+        },
+        {
+            "artikelnummer": "A003",
+            "bezeichnung": "Hundespielzeug",
+            "farbe": "Bunt",
+            "preis": 8.99,
+            "bestand": 50
+        },
+        {
+            "artikelnummer": "A004",
+            "bezeichnung": "Hundeschüssel",
+            "farbe": "Blau",
+            "preis": 5.49,
+            "bestand": 60
+        },
+        {
+            "artikelnummer": "A005",
+            "bezeichnung": "Hundebürste",
+            "farbe": "Weiß",
+            "preis": 3.75,
+            "bestand": 30
+        },
+        {
+            "artikelnummer": "A006",
+            "bezeichnung": "Hundepflege-Set",
+            "farbe": "Rosa",
+            "preis": 14.99,
+            "bestand": 20
+        },
+        {
+            "artikelnummer": "A007",
+            "bezeichnung": "Hundepulli",
+            "farbe": "Gelb",
+            "preis": 22.50,
+            "bestand": 15
+        },
+        {
+            "artikelnummer": "A008",
+            "bezeichnung": "Hundeknochen",
+            "farbe": "Braun",
+            "preis": 2.99,
+            "bestand": 75
+        },
+        {
+            "artikelnummer": "A009",
+            "bezeichnung": "Hundezahnbürste",
+            "farbe": "Grün",
+            "preis": 6.25,
+            "bestand": 35
+        },
+        {
+            "artikelnummer": "A010",
+            "bezeichnung": "Hundebett",
+            "farbe": "Grau",
+            "preis": 49.99,
+            "bestand": 15
+        },
+        {
+            "artikelnummer": "A011",
+            "bezeichnung": "Hundetraining-Guide",
+            "farbe": "Orange",
+            "preis": 9.99,
+            "bestand": 50
+        },
+        {
+            "artikelnummer": "A012",
+            "bezeichnung": "Hunderegenmantel",
+            "farbe": "Lila",
+            "preis": 18.75,
+            "bestand": 25
+        },
+        {
+            "artikelnummer": "A013",
+            "bezeichnung": "Hundetragetasche",
+            "farbe": "Hellblau",
+            "preis": 29.50,
+            "bestand": 10
+        },
+        {
+            "artikelnummer": "A014",
+            "bezeichnung": "Hunderennshirt",
+            "farbe": "Dunkelgrün",
+            "preis": 4.99,
+            "bestand": 40
+        },
+        {
+            "artikelnummer": "A015",
+            "bezeichnung": "Hundeschuhe",
+            "farbe": "Schwarz",
+            "preis": 24.99,
+            "bestand": 20
+        }
+    ]
+}
